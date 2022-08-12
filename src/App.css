@@ -1,0 +1,50 @@
+.app-wrapper {
+
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-areas:
+    "h h "
+    "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+
+}
+
+
+.header {
+  grid-area: h;
+  background-color: green;
+}
+
+
+
+.header__img {
+  height: 50px;
+  width: 100px;
+}
+
+.content__img {
+  width: 100%;
+  height: 100%;
+
+
+
+  margin: 0;
+
+  overflow: hidden;
+
+
+}
+
+.nav {
+  grid-area: n;
+  background-color: rgb(220, 200, 200);
+}
+
+.content {
+  grid-area: c;
+  background-color: rgb(205, 182, 244);
+}
