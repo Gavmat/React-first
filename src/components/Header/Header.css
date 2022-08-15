@@ -1,0 +1,29 @@
+.header {
+    height: 250px;
+    grid-area: h;
+    background-image: url(../../img/header-img.jpg);
+    background-size: contain;
+
+}
+
+
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    height: 84px;
+    width: 249px;
+    /* padding-top: 90px; */
+
+}
+
+.header__text {
+    font-size: 60px;
+    display: block;
+    margin: 0 auto;
+    /* color: #605553; */
+    /* color: #579e93; */
+    color: #d66158;
+    padding-left: 539px;
+
+}
