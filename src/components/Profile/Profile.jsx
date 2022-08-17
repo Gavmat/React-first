@@ -4,7 +4,10 @@ import './Profile.css'
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 
-const Profile = () => {
+const Profile = (props) => {
+
+
+
     return (
         <div className='content'>
 
@@ -16,7 +19,7 @@ const Profile = () => {
 
             <ProfileInfo />
 
-            <MyPosts />
+            <MyPosts posts={props.state.posts} />
 
         </div>
     )

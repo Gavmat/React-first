@@ -3,17 +3,17 @@ import './MyPosts.css'
 import Post from './Post/Post';
 
 
-const MyPosts = () => {
+const MyPosts = (props) => {
 
 
-    let posts = [
-        { id: 1, message: 'Hi , How Are you?', likes: 19 },
-        { id: 2, message: 'Its my first post!', likes: 4 },
-        { id: 3, message: 'Im from NNovgorod!', likes: 7 },
-    ]
+    // let posts = [
+    //     { id: 1, message: 'Hi , How Are you?', likes: 19 },
+    //     { id: 2, message: 'Its my first post!', likes: 4 },
+    //     { id: 3, message: 'Im from NNovgorod!', likes: 7 },
+    // ]
 
 
-    let postsElements = posts.map(p => <Post message={p.message} id={p.id} likes={p.likes} />);
+    let postsElements = props.posts.map(p => <Post message={p.message} id={p.id} likes={p.likes} />);
 
     return (
 
