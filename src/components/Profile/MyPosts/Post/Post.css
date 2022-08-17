@@ -1,9 +1,11 @@
-.item {
+.item__content {
     display: flex;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+
 
 /* .item::before {
     content: url(//img-fotki.yandex.ru/get/5413/5091629.67/0_5ba12_81d03a82_XS.png);

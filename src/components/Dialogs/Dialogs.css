@@ -1,0 +1,24 @@
+.Dialogs-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.Dialogs-users {
+    width: 30%;
+
+
+}
+
+.Dialogs-users .active {
+    color: brown;
+}
+
+.Dialogs-users a {
+    text-decoration: none;
+    color: black;
+}

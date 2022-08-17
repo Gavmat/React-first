@@ -4,8 +4,18 @@ import Post from './Post/Post';
 
 
 const MyPosts = () => {
-    return (
 
+
+    let posts = [
+        { id: 1, message: 'Hi , How Are you?', likes: 19 },
+        { id: 2, message: 'Its my first post!', likes: 4 },
+        { id: 3, message: 'Im from NNovgorod!', likes: 7 },
+    ]
+
+
+    let postsElements = posts.map(p => <Post message={p.message} id={p.id} likes={p.likes} />);
+
+    return (
 
 
         <div className='content__posts'>
@@ -13,12 +23,8 @@ const MyPosts = () => {
                 My posts
             </div>
 
-
-
             <div className="form-style ">
                 <form>
-
-
 
                     <textarea className="field" placeholder=" your news"></textarea>
 
@@ -26,12 +32,9 @@ const MyPosts = () => {
                 </form>
             </div>
 
-
-
-
             <div className='posts'>
-                <Post />
-                <Post />
+                {postsElements}
+
             </div>
         </div>
 

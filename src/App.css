@@ -13,6 +13,14 @@
 }
 
 
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(255, 251, 243);
+
+}
+
+
+
 .header {
   grid-area: h;
 
@@ -41,9 +49,4 @@
 .nav {
   grid-area: n;
   background-color: rgb(220, 200, 200);
-}
-
-.content {
-  grid-area: c;
-  background-color: rgb(205, 182, 244);
 }

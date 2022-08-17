@@ -1,0 +1,24 @@
+.ava-discription {
+    display: flex;
+
+}
+
+.ava-discription__discription {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 23px;
+    line-height: 40px;
+
+}
+
+
+.ava-discription__discription_name {
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
+.ava-discription__ava img {
+    padding-top: 10px;
+    width: 150px;
+    height: 100px;
+}

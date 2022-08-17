@@ -1,12 +1,5 @@
-.content {
-    margin-top: 10px;
-    grid-area: c;
-    /* background-color: rgb(241, 219, 170); */
-    background-color: rgb(255, 251, 243);
-}
-
-
 .content_img {
+    padding-top: 10px;
     height: 250px;
 }
 
