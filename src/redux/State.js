@@ -49,6 +49,7 @@ let store = {
     this._rerenderEntireTree(this._state);
   },
 
+
   updateNewPostText(newText) {
 
     this._state.profilePage.newPostText = newText;
